@@ -1,13 +1,19 @@
 const mysql2 = require("mysql2");
 
 const dbConnection = mysql2.createPool({
-	user: "Forum123_rearraysof",
-	password: "1711a1f7b6a5d3b6b62e0edb6f31cdb1916640c6",
-	database: "Forum123_rearraysof",
-	host: "6cf.h.filess.io",
+	user: "sql8691135",
+	password: "rGmqiPBqRb",
+	database: "sql8691135",
+	host: "sql8.freesqldatabase.com",
 	port: 3306,
 	connectionLimit: 10,
 });
+// hosted database info
+// Host: sql8.freesqldatabase.com
+// Database name: sql8691135
+// Database user: sql8691135
+// Database password: rGmqiPBqRb
+// Port number: 3306
 
 // const dbConnection = mysql2.createPool({
 // 	host: "localhost",
